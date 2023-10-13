@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+}
