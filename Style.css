@@ -1,16 +1,78 @@
+/*FOLHA DE ESTILO*/
 body{
     margin: 0 auto;
     padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*IMAGENS*/
+img {
+    width: 50px;
+}
+/*TITULOS*/
 .Sedans {
+    padding: 1rem;
+    width: 250px;
+    height: 50vh;
     background-color: hsl(31, 77%, 52%);
-}
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 
+}
 .SUVs {
+    padding: 1rem;
+    width: 250px;
+    height: 50vh;
     background-color: hsl(184, 100%, 22%);
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
 }
 
 .Luxury {
+    padding: 1rem;
+    width: 250px;
+    height: 50vh;
     background-color: hsl(179, 100%, 13%);
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+/*TEXTO*/
+ p{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    text-transform: none;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+/*BOTÕES*/
+.button {
+    text-decoration: none;
+    text-transform: none;
+    display: inline-block;
+    border:solid;
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+	color: hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+	font-size: 15px;
+    top: 50%;
+    left:50%
+
+}
+/*modificação: 18/10/2023*/
